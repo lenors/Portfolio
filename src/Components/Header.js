@@ -4,7 +4,7 @@ import { Globalstyle } from "../Styles/Globalstyle";
 import * as S from "../Styles/Header";
 import Burguir from '../Assets/Header/Burguir.png'
 
-const Header = () => {
+const Header = ({Rota1, Rota2, Rota3, Rota4}) => {
   const [open, setOpen] = useState(true);
 
   const Toggle = () => {

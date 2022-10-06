@@ -7,7 +7,6 @@ justify-content:space-between;
 `
 export const listas = styled.li`
 list-style:none;
-border:solid;
 width: 150px;
 margin-top:1.7rem;
 `
