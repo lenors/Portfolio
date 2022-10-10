@@ -1,6 +1,6 @@
 import { createGlobalStyle } from "styled-components";
 import Bodi from "../Assets/Body/Bodi.png";
-import BackCell from "../Assets/Header/BackCell.jpg";
+import Responsivo1 from "../Assets/Body/Responsivo1.jpg";
 
 export const Globalstyle = createGlobalStyle`
 *{
@@ -14,8 +14,8 @@ export const Globalstyle = createGlobalStyle`
        background-attachment:fixed;
        background-size:100%;
        @media screen and (max-width: 768px){
-         background-image:none;
-         background-color:#231f20;
+        background-image:url(${Responsivo1});
+       
     
        }
        
