@@ -6,7 +6,8 @@ export default function Sobre() {
     <div>
       <Globalstyle/>
       <h1>
-      aa</h1>
+      Who am I?
+      </h1>
       </div>
   )
 }

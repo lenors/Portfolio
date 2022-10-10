@@ -13,7 +13,7 @@ export default function Rotas() {
     <Routes>
     <Route path="/" element={<Home/>}/>
     <Route path="/Projetos" element={<Projetos/>}/>
-    <Route path='/About' element={<About/>}/>
+    <Route path="/About" element={<About/>}/>
     </Routes>
     </BrowserRouter>
     

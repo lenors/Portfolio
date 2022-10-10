@@ -25,7 +25,7 @@ const Header = ({Rota1, Rota2, Rota3, Rota4}) => {
             <S.Listas to='/Projetos'>{Rota3}</S.Listas>
           </S.Listinha>
           <S.Listinha>
-            <S.Listas to='/Sobre' >{Rota4}</S.Listas>
+            <S.Listas to='/About' >{Rota4}</S.Listas>
           </S.Listinha>
         </S.Menu>
       </S.Navp> 
