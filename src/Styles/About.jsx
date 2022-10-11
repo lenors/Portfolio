@@ -17,7 +17,7 @@ border:solid black 2px;
 export const Who = styled.h1`
     font-family: 'Press Start 2P', cursive;
     color: black;
-    animation: typing 2s 1s normal steps(10) both, blink 500ms  infinite alternate ;
+    animation: typing 1s 1s normal steps(10) both, blink 500ms  infinite alternate ;
     white-space: nowrap;
     overflow: hidden;
     border-right: 3px solid;

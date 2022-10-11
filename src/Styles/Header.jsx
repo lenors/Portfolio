@@ -4,7 +4,6 @@ import styled from "styled-components";
 export const CaixaM = styled.div`
 display:flex;
   justify-content: space-between;
-  border: solid pink;
   @media screen and(max-width:768px) {
     width: 30%;
     height: 80%;
