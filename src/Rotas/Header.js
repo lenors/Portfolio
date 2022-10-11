@@ -2,7 +2,7 @@ import { useState } from "react";
 import headers from "../Assets/Header/headers.png";
 import { Globalstyle } from "../Styles/Globalstyle";
 import * as S from "../Styles/Header";
-import Burguir from '../Assets/Header/Burguir.png'
+
 
 const Header = ({Rota1, Rota2, Rota3, Rota4}) => {
   const [open, setOpen] = useState(true);
@@ -43,7 +43,7 @@ const Header = ({Rota1, Rota2, Rota3, Rota4}) => {
           </S.Listinha>
         </S.Menu>
       </nav>}
-      {/* <S.Burguir src={Burguir} onClick={Toggle} /> */}
+     
       </S.Teste> 
       
     </S.CaixaM>

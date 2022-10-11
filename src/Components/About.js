@@ -1,13 +1,16 @@
 import React from 'react'
 import { Globalstyle } from '../Styles/Globalstyle'
+import * as S from "../Styles/About"
+import About2 from '../Assets/About/About2.jpg'
 
 export default function Sobre() {
   return (
-    <div>
+    <S.Section2>
       <Globalstyle/>
-      <h1>
+      <S.Image src={About2} alt="" />
+      <S.Who>
       Who am I?
-      </h1>
-      </div>
+      </S.Who>
+      </S.Section2>
   )
 }
