@@ -39,3 +39,40 @@ export const Who = styled.h1`
         }
     }
 `
+
+export const Paragrafo = styled.p`
+font-family: 'Montserrat', sans-serif;
+width:500px;
+font-size:2rem;
+font-weight:700;
+@media (max-width: 768px){
+    width:300px;
+    font-size:30px;
+    color:white;
+}
+`
+export const Language = styled.div`
+display:flex;
+flex-direction:row;
+align-items:center;
+justify-content:center;
+`
+export const Icons3 = styled.ul`
+
+width:100px;
+display:flex;
+list-style:none;
+align-items:center;
+justify-content:center;
+@media (max-width: 768px){
+    
+}
+`
+export const Icons4 = styled.li`
+color:white;
+width:50px;
+font-size:50px;
+@media (max-width: 768px){
+    color:white;
+}
+`

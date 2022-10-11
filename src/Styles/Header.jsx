@@ -22,9 +22,10 @@ export const Listinha = styled.li`
   font-size: 2rem;
   text-decoration: none;
   @media (max-width: 768px) {
-    width:130px;
+    width:120px;
     align-items:center;
     justify-content:center;
+    font-size:25px;
   }
 `;
 export const Listas = styled(Link)`
@@ -77,8 +78,11 @@ export const Burguir = styled.img`
 export const Menu = styled.ul`
   display: flex;
   @media (max-width: 768px) {
-
-    width:20%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    width:100%;
+    font-size:15px;
    
   }
 `;
@@ -91,9 +95,6 @@ export const Teste = styled.div`
 
   @media (max-width: 768px) {
     display: flex;
-    /* flex-direction:column-reverse;
-justify-content:center;
-align-items:center; */
   }
 
 
