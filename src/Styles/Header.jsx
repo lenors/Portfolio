@@ -59,14 +59,14 @@ export const Img2 = styled.img`
 `;
 export const Navp = styled.nav`
   display: flex;
-  width: 50%;
+  width: 100%;
   flex-direction: row;
-
+  justify-content:flex-end;
+  
   @media (max-width: 768px) {
     display:none;
-    /* width: 30%;
-    display: flex;
-    flex-direction: row; */
+    
+
   }
 `;
 export const Burguir = styled.img`
@@ -88,12 +88,14 @@ export const Menu = styled.ul`
 export const Teste = styled.div`
   display: flex;
   justify-content: space-between;
-  width: 60%;
+  width: 100%;
   flex-direction: row;
   display: none;
 
   @media (max-width: 768px) {
     display: flex;
+    justify-content:center;
+    align-items:center;
   }
 
 

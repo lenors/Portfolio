@@ -13,13 +13,29 @@ export const Globalstyle = createGlobalStyle`
        background-position:center;
        background-attachment:fixed;
        background-size:100%;
+       @media screen and (max-width: 1024px){
+        background-image:url(${Responsivo1});
+        background-size:100%;
+    
+       }
+       @media screen and (max-width: 972px){
+        background-image:url(${Responsivo1});
+        background-size:100%;
+    
+       }
+
        @media screen and (max-width: 768px){
         background-image:url(${Responsivo1});
-       
+        background-size:100%;
     
        }
        
+       @media screen and (max-width: 375px){
+        background-image:url(${Responsivo1});
+        background-size:100%;
+       
        
     
+}
 }
 `;
