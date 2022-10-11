@@ -22,7 +22,7 @@ const Header = ({Rota1, Rota2, Rota3, Rota4}) => {
           </S.Listinha>
         
           <S.Listinha>
-            <S.Listas to='/Projetos'>{Rota3}</S.Listas>
+            <S.Listas to='/Projects'>{Rota3}</S.Listas>
           </S.Listinha>
           <S.Listinha>
             <S.Listas to='/About' >{Rota4}</S.Listas>
@@ -36,7 +36,7 @@ const Header = ({Rota1, Rota2, Rota3, Rota4}) => {
              <S.Listas to='/'>{Rota1}</S.Listas> 
           </S.Listinha>
           <S.Listinha>
-            <S.Listas to='/Projetos'>{Rota3}</S.Listas>
+            <S.Listas to='/Projects'>{Rota3}</S.Listas>
           </S.Listinha>
           <S.Listinha>
             <S.Listas to='/About' >{Rota4}</S.Listas>
