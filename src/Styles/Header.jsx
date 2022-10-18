@@ -27,7 +27,7 @@ export const Listinha = styled.li`
     align-items:center;
     justify-content:center;
     font-size:1.1rem;
-    border:solid;
+   
   }
 `;
 export const Listas = styled(Link)`
