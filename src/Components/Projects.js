@@ -5,7 +5,13 @@ export default function Projetos() {
   return (
     <div>
       <Globalstyle/>
-      <h1>Ola</h1>
+     <figure></figure>
+     <figure></figure>
+     <figure></figure>
+     <figure></figure>
+     <figure></figure>
+     <figure></figure>
+     <figure></figure>
     </div>
   )
 }

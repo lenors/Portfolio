@@ -50,7 +50,7 @@ export const Caixa3 = styled.div`
 export const Foto = styled.img`
   justify-content: center;
   align-items: center;
-  width: 350px;
+  width: 40%;
   border-radius: 10px 10px 10px 10px;
   @media (max-width: 768px) {
     width: 250px;
