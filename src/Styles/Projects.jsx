@@ -11,11 +11,11 @@ box-shadow:10px;
 
 export const Container2 = styled.div`
 display:flex;
-
 width:100%;
 height:30vw;
 flex-wrap:wrap;
-justify-content:space-around
+justify-content:space-around;
+margin-top:2rem;
 
 `
 export const Paragrafo = styled.p`
