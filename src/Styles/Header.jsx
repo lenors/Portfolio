@@ -14,6 +14,7 @@ display:flex;
 `;
 export const Listinha = styled.li`
   display: flex;
+  margin-top:1rem;
   align-items:center;
   list-style: none;
   justify-content:center;
