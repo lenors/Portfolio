@@ -15,7 +15,7 @@ export const Image = styled.img`
 
 export const Who = styled.h1`
   font-family: "Press Start 2P", cursive;
-  color: black;
+  color: #070707;
   animation: typing 1s 1s normal steps(10) both, blink 500ms infinite alternate;
   white-space: nowrap;
   overflow: hidden;
@@ -43,7 +43,8 @@ export const Paragrafo = styled.p`
   font-family: "Montserrat", sans-serif;
   width: 500px;
   font-size: 2rem;
-  font-weight: 700;
+  font-weight: 900;
+  color: #060303;
   @media (max-width: 768px) {
     width: 300px;
     font-size: 30px;
@@ -66,7 +67,7 @@ export const Icons3 = styled.ul`
   }
 `;
 export const Icons4 = styled.li`
-  color: white;
+  color: #0a0a0a;
   width: 50px;
   font-size: 50px;
   @media (max-width: 768px) {

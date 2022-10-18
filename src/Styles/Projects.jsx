@@ -4,6 +4,8 @@ export const Projetos = styled.img`
 width:300px;
 border-radius:10px 10px 10px 10px;
 height:250px;
+border:solid black;
+box-shadow:10px;
 `
 
 

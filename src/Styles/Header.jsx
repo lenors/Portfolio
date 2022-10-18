@@ -17,14 +17,15 @@ export const Listinha = styled.li`
   align-items:center;
   list-style: none;
   justify-content:center;
-  width: 200px;
+  width: 250px;
   font-size: 2rem;
+  font-family: "Press Start 2P", cursive;
   text-decoration: none;
   @media (max-width: 768px) {
-    width:120px;
+    width:150px;
     align-items:center;
     justify-content:center;
-    font-size:25px;
+    font-size:20px;
   }
 `;
 export const Listas = styled(Link)`
@@ -37,8 +38,8 @@ export const Listas = styled(Link)`
   text-decoration: none;
 
   :hover {
-    transition: ease-out 0.5s;
-    color: red;
+    transition: ease-in-out 0.5s;
+    color: #e9e0e0;
   }
   @media screen {
     
