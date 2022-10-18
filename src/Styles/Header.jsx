@@ -23,7 +23,7 @@ export const Listinha = styled.li`
   font-family: "Press Start 2P", cursive;
   text-decoration: none;
   @media (max-width: 768px) {
-    width:120px;
+    width:128px;
     align-items:center;
     justify-content:center;
     font-size:1.1rem;
