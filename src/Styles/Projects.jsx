@@ -7,7 +7,12 @@ height:250px;
 object-fit: contain;
 `
 export const Titulinhos = styled.h2`
-color:white;
+
+color:#B22222;
+@media(max-width: 768px){
+    color:white;
+}
+
 `
 
 export const Container2 = styled.div`
