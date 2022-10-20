@@ -4,10 +4,11 @@ export const Projetos = styled.img`
 width:300px;
 border-radius:10px 10px 10px 10px;
 height:250px;
-border:solid black;
-box-shadow:10px;
+object-fit: contain;
 `
-
+export const Titulinhos = styled.h2`
+color:white;
+`
 
 export const Container2 = styled.div`
 display:flex;
