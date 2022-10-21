@@ -72,5 +72,5 @@ export const ReactIcons = styled.li`
 
 export const Links = styled.a`
   text-decoration: none;
-  color: #0b0b0b;
+  color: #faf6f6;
 `;
