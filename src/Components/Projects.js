@@ -71,7 +71,7 @@ export default function Projetos() {
         <S.Titulinhos>Lampada Js</S.Titulinhos>
       </figure>
       <figure>
-      <a href="https://lampadajs.vercel.app/">
+      <a href="https://vercel.com/lenors/seriestmdb">
         <S.Projetos src={Series} alt="Series" /></a>
         <S.Titulinhos>ReactFlix</S.Titulinhos>
       </figure>
