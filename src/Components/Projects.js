@@ -7,7 +7,11 @@ import Calculadora from "../Imagens/Calculadora.png";
 import Beat from "../Imagens/Beat.png";
 import Harry from "../Imagens/Harry.png";
 import todo from "../Imagens/Todo.png";
+import Lampada from "../Imagens/Lampada.png"
+import Series from "../Imagens/Series.png"
+import Ods from "../Imagens/Ods.png"
 import * as S from "../Styles/Projects";
+
 
 export default function Projetos() {
   return (
@@ -57,9 +61,24 @@ export default function Projetos() {
       <figure>
         <a href="https://todo-neon-two.vercel.app/">
           {" "}
-          <S.Projetos src={todo} alt="" />
+          <S.Projetos src={todo} alt="Todo" />
         </a>
         <S.Titulinhos>ToDo List</S.Titulinhos>
+      </figure>
+      <figure>
+      <a href="https://lampadajs.vercel.app/">
+        <S.Projetos src={Lampada} alt="LampadaJs" /></a>
+        <S.Titulinhos>Lampada Js</S.Titulinhos>
+      </figure>
+      <figure>
+      <a href="https://lampadajs.vercel.app/">
+        <S.Projetos src={Series} alt="Series" /></a>
+        <S.Titulinhos>ReactFlix</S.Titulinhos>
+      </figure>
+      <figure>
+      <a href="https://ods-one.vercel.app/">
+        <S.Projetos src={Ods} alt="Ods" /></a>
+        <S.Titulinhos>Onu Ods</S.Titulinhos>
       </figure>
     </S.Container2>
   );
