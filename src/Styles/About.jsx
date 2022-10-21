@@ -15,7 +15,7 @@ export const Image = styled.img`
 
 export const Who = styled.h1`
   font-family: "Press Start 2P", cursive;
-  color: #070707;
+  color: #f9f6f6;
   animation: typing 1s 1s normal steps(10) both, blink 500ms infinite alternate;
   white-space: nowrap;
   overflow: hidden;
